@@ -7,7 +7,7 @@ sequenceDiagram
     server-->>browser: Response & HTML file
     deactivate server
 
-    Note right of the browser: The browser reads the tags and fectches the CSS and JS.
+    Note right of the browser: The browser reads the tags and fetches the CSS and JS.
 
     browser->>server: GET CSS FILE // address: main.css
     activate server
@@ -19,7 +19,7 @@ sequenceDiagram
     server-->>browser: Response & JS file
     deactivate server
 
-    Note right of the browser: Inside the JavaScript there is a function that fectched the json data for the notes.
+    Note right of the browser: Inside the JavaScript there is a function that fetched the json data for the notes.
 
     browser->>server: GET NOTES JSON DATA // address: data.json
     activate server
